@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Coinbase Theme - Dark Navy */
+  --color-bg: hsl(220, 30%, 8%);
+  --color-fg: hsl(0, 0%, 95%);
+  --color-surface: hsl(220, 25%, 12%);
+  --color-primary: #0052ff;
+  --color-accent: #0052ff;
+  --color-base: #0052ff;
+  --color-base-light: #3374ff;
+  --color-text-dark: hsl(0, 0%, 15%);
+  --color-text-light: hsl(0, 0%, 95%);
+  
+  /* Shadows */
+  --shadow-card: 0 8px 24px hsla(220, 100%, 50%, 0.12);
+  --shadow-elevate: 0 12px 30px hsla(0, 0%, 0%, 0.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
