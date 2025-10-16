@@ -7,10 +7,10 @@
   "frame": {
     "version": "vNext",
     "name": "PlatePal",
-    "homeUrl": "https://platepal.miniapp.xyz/",
+    "homeUrl": "https://app-cd33b7d2-00bx.vercel.app",
     "iconUrl": "https://platepal.miniapp.xyz/platepal_icon_256.png",
     "splashImageUrl": "https://platepal.miniapp.xyz/platepal_splash_200.png",
     "splashBackgroundColor": "#0A0A0E",
-    "webhookUrl": "https://api.platepal.miniapp.xyz/farcaster/webhook"
+    "webhookUrl": "https://app-cd33b7d2-00bx.vercel.app/api/webhook"
   }
 }
